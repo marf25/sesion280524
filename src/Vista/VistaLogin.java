@@ -184,6 +184,7 @@ public class VistaLogin extends javax.swing.JFrame {
     public void setControlador(ControladorUsuario controlador) {
         btnIngresar.addActionListener(controlador);
         registrar.addActionListener(controlador);
+        btnCancelar.addActionListener(controlador);
     }
 
 }
